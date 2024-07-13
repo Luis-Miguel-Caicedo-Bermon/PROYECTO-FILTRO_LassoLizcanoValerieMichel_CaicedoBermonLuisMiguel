@@ -1,0 +1,97 @@
+body{
+    margin: 0 auto;
+}
+@font-face{
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
+    font-family: regular;
+}
+@font-face{
+    src: url(fonts/MyriadPro-Light.otf);
+    font-family: light;
+}
+.principal{
+    width: 100vw;
+}
+.menu{
+    width: 100vw;
+    height: 4vw;
+    display: flex;
+    box-shadow: 0 0 0 0.1vw gray;
+    align-items: center;
+}
+.icons{
+    width: 1.2vw;
+}
+.opc{
+    margin-left: 0.5vw;
+    font-size: 1.2vw;
+    font-family: regular;
+}
+#mas{
+    margin-left: 9.7vw;
+}
+#reload{
+    margin-left: 6.8vw;
+}
+#report{
+    margin-left: 12.4vw;
+}
+.kario{
+    margin-left: 9vw;
+    width: 2vw;
+}
+.config{
+    margin-left: 10vw;
+    width: 1vw;
+}
+.noti{
+    width: 1.2vw;
+    margin-left: 1vw;
+}
+.profe{
+    width: 2.8vw;
+    margin-left: 1vw;
+}
+.panel{
+    margin-top: 2vw;
+    font-size: 2vw;
+    font-family: regular;
+    text-align: center;
+}
+.aquipuedes{
+    font-family: light;
+    font-size: 1.25vw;
+    margin-top: 1.8vw;
+    text-align: center;
+}
+.info{
+    margin-left: 4.6vw;
+    margin-top: 3vw;
+    font-family: regular;
+    font-size: 1.25vw;
+    display: flex;
+}
+.indicador{
+    margin-left: 1.4vw;
+}
+.descripcion{
+    margin-left: 9vw;
+}
+.categoria{
+    margin-left: 6.9vw;
+}
+.fechai{
+    margin-left: 2vw;
+}
+.fechaf{
+    margin-left: 2vw;
+}
+.formula{
+    margin-left: 1.8vw;
+}
+.cumplimiento{
+    margin-left: 2vw;
+}
+.area{
+    margin-left: 3.2vw;
+}

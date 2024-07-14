@@ -19,6 +19,19 @@ body{
     box-shadow: 0 0 0 0.1vw gray;
     align-items: center;
 }
+#ham{
+    display: none;
+}
+.menuh{
+    display: none;
+    width: 5vw;
+}
+.marco{
+    display: flex;
+}
+.conop{
+    display: flex;
+}
 .icons{
     width: 1.2vw;
 }
@@ -29,12 +42,18 @@ body{
 }
 #mas{
     margin-left: 9.7vw;
+    display: flex;
+    align-items: center;
 }
 #reload{
     margin-left: 6.8vw;
+    display: flex;
+    align-items: center;
 }
 #report{
     margin-left: 12.4vw;
+    display: flex;
+    align-items: center;
 }
 .kario{
     margin-left: 9vw;
@@ -43,6 +62,7 @@ body{
 .config{
     margin-left: 10vw;
     width: 1vw;
+    display: flex;
 }
 .noti{
     width: 1.2vw;
@@ -169,7 +189,68 @@ body{
     background-color: #FF6F2C;
     color: white;
     font-size: 1.3vw;
+    font-family: regular;
 }
 .quitlink{
     text-decoration: none;
+}
+@media only screen and (max-width: 440px){
+    .menu{
+        height: 10vw;
+        overflow: hidden;
+        display: block;
+    }
+    .menuh{
+        display: block;
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+    #ham:checked + .menu{
+        height: 55vw;
+    }
+    .icons{
+        width: 4vw;
+    }
+    .opc{
+        font-size: 4vw;
+    }
+    .config{
+        width: 4vw;
+    }
+    .noti{
+        width: 4vw;
+        margin-left: 3vw;
+    }
+    .profe{
+        width: 6vw;
+        margin-left: 3vw;
+    }
+    #perfil{
+        position: relative;
+        top: -53vw;
+        left: 65vw;
+    }
+    #mas{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    #reload{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    #report{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    .kario{
+        display: none;
+    }
+    .marco{
+        display: block;
+        border: #FF6F2C 0.4vw solid;
+        margin-top: 5vw;
+        margin-left: 10vw;
+        width: 40vw;
+        height: 42vw;
+    }
 }

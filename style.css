@@ -121,3 +121,65 @@ body{
     margin-top: 1.7vw;
     font-size: 0.7vw;
 }
+@media only screen and (max-width: 440px){
+    .principal{
+        height: 200vw;
+    }
+    @keyframes kario{
+        0%{
+            width: 30vw;
+        }
+        32%{
+            width: 30vw;
+        }
+        33%{
+            opacity: 0;
+        }
+        65%{
+            opacity: 0;
+        }
+        66%{
+            width: 30vw;
+        }
+        99.999%{
+            width: 30vw;
+        }
+    }
+    .inicio{
+        width: 70vw;
+        height: 103vw;
+    }
+    .kariomedia{
+        margin: 5vw 0 0 30vw;
+        width: 10vw;
+    }
+    .bienvenido{
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+    .porfavor{
+        font-size: 3vw;
+    }
+    .usuario{
+        margin-top: 3vw;
+        font-size:5vw;
+    }
+    #usuario{
+        width: 55vw;
+        height: 5vw;
+        font-size: 3vw;
+    }
+    #contraseña{
+        width: 55vw;
+        height: 5vw;
+    }
+    .ingresar{
+        font-size: 4vw;
+        margin-top: 5vw;
+        padding: 2vw 6vw;
+    }
+    .problemas{
+        margin-top: 5vw;
+        font-size: 2.8vw;
+    }
+}

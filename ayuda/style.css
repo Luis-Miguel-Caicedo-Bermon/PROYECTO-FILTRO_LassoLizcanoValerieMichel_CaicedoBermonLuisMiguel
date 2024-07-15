@@ -1,0 +1,227 @@
+body{
+    margin: 0 auto;
+}
+@font-face{
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
+    font-family: regular;
+}
+@font-face{
+    src: url(fonts/MyriadPro-Light.otf);
+    font-family: light;
+}
+.principal{
+    width: 100vw;
+}
+.menu{
+    width: 100vw;
+    height: 4vw;
+    display: flex;
+    box-shadow: 0 0 0 0.1vw gray;
+    align-items: center;
+}
+#ham{
+    display: none;
+}
+.menuh{
+    display: none;
+    width: 5vw;
+}
+.marco{
+    display: flex;
+}
+.conop{
+    display: flex;
+}
+.icons{
+    width: 1.2vw;
+}
+.opc{
+    margin-left: 0.5vw;
+    font-size: 1.2vw;
+    font-family: regular;
+}
+#mas{
+    margin-left: 9.7vw;
+    display: flex;
+    align-items: center;
+}
+#reload{
+    margin-left: 6.8vw;
+    display: flex;
+    align-items: center;
+}
+#report{
+    margin-left: 12.4vw;
+    display: flex;
+    align-items: center;
+}
+.kario{
+    margin-left: 9vw;
+    width: 2vw;
+}
+.config{
+    margin-left: 10vw;
+    width: 1vw;
+    display: flex;
+}
+.noti{
+    width: 1.2vw;
+    margin-left: 1vw;
+}
+.profe{
+    width: 2.8vw;
+    margin-left: 1vw;
+}
+.bienvenido{
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 3vw;
+    font-family: regular;
+}
+.ayud{
+    margin: 1vw 47vw;
+    width: 7vw;
+}
+.dudas{
+    text-align: center;
+    font-size: 2vw;
+    font-family: light;
+}
+.informacion{
+    margin-top: 5vw;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.contenedores{
+    width: 25vw;
+}
+.titulo{
+    color: #FF6F2C;
+    font-family: regular;
+    font-size: 2vw;
+}
+.texto{
+    font-family: light;
+    font-size: 1.5vw;
+}
+.seccion-problemas{
+    display: flex;
+    margin-top: 5vw;
+    width: 100vw;
+    height: 15vw;
+}
+.problemas{
+    width: 50vw;
+    font-size: 2vw;
+    line-height: 3vw;
+    font-family: regular;
+    color: #FF6F2C;
+    text-align: center;
+}
+#descripcion{
+    width: 40vw;
+    height: 7vw;
+    border: #FF6F2C solid 0.2vw;
+    display: flex;
+}
+@media only screen and (max-width: 440px){
+    .principal{
+        height: 260vw;
+    }
+    .menu{
+        height: 10vw;
+        overflow: hidden;
+        display: block;
+    }
+    .menuh{
+        display: block;
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+    #ham:checked + .menu{
+        height: 55vw;
+    }
+    .icons{
+        width: 4vw;
+    }
+    .opc{
+        font-size: 4vw;
+    }
+    .config{
+        width: 4vw;
+    }
+    .noti{
+        width: 4vw;
+        margin-left: 3vw;
+    }
+    .profe{
+        width: 6vw;
+        margin-left: 3vw;
+    }
+    #perfil{
+        position: relative;
+        top: -53vw;
+        left: 65vw;
+    }
+    #mas{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    #reload{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    #report{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    .kario{
+        display: none;
+    }
+    .marco{
+        display: block;
+        border: #FF6F2C 0.4vw solid;
+        margin-top: 5vw;
+        margin-left: 10vw;
+        width: 40vw;
+        height: 42vw;
+    }
+    .bienvenido{
+        font-size: 8vw;
+    }
+    .ayud{
+        width: 12vw;
+        margin: 2vw 43vw;
+    }
+    .dudas{
+        font-size: 5vw;
+    }
+    .informacion{
+        display: block;
+    }
+    .contenedores{
+        margin: 10vw auto;
+        width: 70vw;
+    }
+    .titulo{
+        font-size: 5vw;
+    }
+    .texto{
+        font-size: 4vw;
+    }
+    .seccion-problemas{
+        display: block;
+    }
+    .problemas{
+        margin: 10vw auto;
+        width: 70vw;
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+    #descripcion{
+        margin: 0 auto;
+        width: 70vw;
+        height: 25vw;
+    }
+}

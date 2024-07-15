@@ -39,6 +39,7 @@ body{
     margin-left: 0.5vw;
     font-size: 1.2vw;
     font-family: regular;
+    color: black;
 }
 #mas{
     margin-left: 9.7vw;
@@ -124,6 +125,9 @@ body{
     height: 7vw;
     border: #FF6F2C solid 0.2vw;
     display: flex;
+}
+.quitlink{
+    text-decoration: none;
 }
 @media only screen and (max-width: 440px){
     .principal{

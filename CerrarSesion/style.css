@@ -3,6 +3,9 @@
     height: 45vw;
     margin: -0.5VW;
 }
+.quitlink{
+    text-decoration: none;
+}
 .menu{
     width: 100vw;
     height: 4vw;
@@ -30,6 +33,7 @@
     margin-left: 0.5vw;
     font-size: 1.2vw;
     font-family: regular;
+    color: black;
 }
 #mas{
     margin-left: 9.7vw;

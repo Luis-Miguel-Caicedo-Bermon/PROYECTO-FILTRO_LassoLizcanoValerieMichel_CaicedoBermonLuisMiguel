@@ -11,6 +11,7 @@ body{
 }
 .principal{
     width: 100vw;
+    height: 70vw;
 }
 .menu{
     width: 100vw;
@@ -73,75 +74,70 @@ body{
     width: 2.8vw;
     margin-left: 1vw;
 }
-.panel{
-    margin-top: 2vw;
-    font-size: 2vw;
+.selecciona{
+    margin-top: 4vw;
+    margin-left: 3vw;
+    color: #FF6F2C;
     font-family: regular;
-    text-align: center;
-}
-.aquipuedes{
-    font-family: light;
-    font-size: 1.25vw;
-    margin-top: 1.8vw;
-    text-align: center;
+    font-size: 2vw;
 }
 .info{
-    margin-left: 4.6vw;
+    margin-left: 3vw;
     margin-top: 3vw;
     font-family: regular;
-    font-size: 1.25vw;
+    font-size: 1vw;
     display: flex;
 }
 .indicador{
-    margin-left: 1.4vw;
-    width: 14vw;
+    margin-left: 1vw;
+    width: 12vw;
 }
 .descripcion{
-    width: 13vw;
+    width: 10vw;
 }
 .categoria{
-    width: 5vw;
+    width: 4vw;
     text-align: center;
 }
 .fechai{
-    margin-left: 1.9vw;
-    width: 7.8vw;
+    margin-left: 1.5vw;
+    width: 7vw;
     text-align: center;
 }
 .fechaf{
-    margin-left: 2vw;
-    width: 11.3vw;
+    margin-left: 1vw;
+    width: 9vw;
     text-align: center;
 }
 .formula{
-    width: 8.3vw;
+    width: 7vw;
     text-align: center;
 }
 .frecuencia{
-    width: 5.6vw;
+    width: 5vw;
     text-align: center;
 }
 .cumplimiento{
-    margin-left: 4vw;
-    width: 3.5vw;
-    height: 3.5vw;
+    margin-left: 2.5vw;
+    width: 3vw;
+    height: 3vw;
     display: flex;
     justify-content: center;
 }
 .area{
     margin-left: 1vw;
-    width: 7.5vw;
+    width: 7vw;
     text-align: center;
 }
 .info2{
     border: 0.1vw solid rgb(150, 150, 150);
-    border-radius: 1.7vw;
-    margin: 1vw 0 0 4.6vw;
-    width: 88.5vw;
-    height: 4.2vw;
+    border-radius: 1.5vw;
+    margin: 1vw 0 0 3vw;
+    width: 72vw;
+    height: 3.5vw;
     display: flex;
     align-items: center;
-    font-size: 1.25vw;
+    font-size: 1vw;
     font-family: light;
     color: rgb(150, 150, 150);
 }
@@ -180,22 +176,47 @@ body{
 #porce{
     width: 0;
     position: relative;
-    left: -2.6vw;
-    font-size: 1vw;
-}
-.boton{
-    width: 13vw;
-    text-align: center;
-    margin: 1.7vw auto;
-    padding: 1vw 3vw;
-    border-radius: 2vw;
-    background-color: #FF6F2C;
-    color: white;
-    font-size: 1.3vw;
-    font-family: regular;
+    left: -2.4vw;
+    font-size: 0.9vw;
 }
 .quitlink{
     text-decoration: none;
+}
+#selec{
+    position: absolute;
+    margin-left: 74vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.escribe{
+    font-family: regular;
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+.contenedor{
+    margin-top: 3vw;
+    display: flex;
+    width: 100vw;
+}
+#descripcion{
+    width: 60vw;
+    margin-left: 3vw;
+    height: 10vw;
+    border: #FF6F2C solid 0.3vw;
+    background-color: rgb(226, 226, 226);
+}
+.enviar{
+    width: 10vw;
+    text-align: center;
+    font-family: regular;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #FF6F2C;
+    border-radius: 1vw;
+    padding: 1vw;
+    margin-top: 6.8vw;
+    margin-left: 2vw;
 }
 @media only screen and (max-width: 440px){
     .menu{
@@ -257,16 +278,23 @@ body{
         width: 40vw;
         height: 42vw;
     }
-    .panel{
-        font-size: 6vw;
+    .selecciona{
+        font-size: 5vw;
     }
-    .aquipuedes{
-        font-size: 4vw;
-    }
-    .boton{
+    .escribe{
         margin-top: 7vw;
         font-size: 4vw;
-        padding: 3vw;
-        width: 40vw;
+    }
+    .contenedor{
+        display: block;
+    }
+    #descripcion{
+        width: 80vw;
+        height: 30vw;
+    }
+    .enviar{
+        width: 30vw;
+        font-size: 5vw;
+        padding: 3vw 5vw;
     }
 }

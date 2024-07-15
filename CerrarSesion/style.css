@@ -1,0 +1,255 @@
+.ContenedorPrincipal{
+    width: 100vw;
+    height: 45vw;
+    margin: -0.5VW;
+}
+.menu{
+    width: 100vw;
+    height: 4vw;
+    display: flex;
+    box-shadow: 0 0 0 0.1vw gray;
+    align-items: center;
+}
+#ham{
+    display: none;
+}
+.menuh{
+    display: none;
+    width: 5vw;
+}
+.marco{
+    display: flex;
+}
+.conop{
+    display: flex;
+}
+.icons{
+    width: 1.2vw;
+}
+.opc{
+    margin-left: 0.5vw;
+    font-size: 1.2vw;
+    font-family: regular;
+}
+#mas{
+    margin-left: 9.7vw;
+    display: flex;
+    align-items: center;
+}
+#reload{
+    margin-left: 6.8vw;
+    display: flex;
+    align-items: center;
+}
+#report{
+    margin-left: 12.4vw;
+    display: flex;
+    align-items: center;
+}
+.kario{
+    margin-left: 9vw;
+    width: 2vw;
+}
+.config{
+    margin-left: 10vw;
+    width: 1vw;
+    display: flex;
+}
+.noti{
+    width: 1.2vw;
+    margin-left: 1vw;
+}
+.profe{
+    width: 2.8vw;
+    margin-left: 1vw;
+}
+.fondoNaranja{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 98vw;
+    height: 12vw;
+    background-color: #FF6F2C;
+    border-radius: 10PX;
+    display: flex;
+    justify-content: end;
+}
+.usuarioAdministrador{
+    width: 13vw;
+    height: 3vw;
+    color: white;
+    align-items: center;
+    display: flex;
+    font-size: 1.3vw;
+}
+.mas{
+    width: 1.5vw;
+    height: 3vw;
+    color: white;
+    align-items: center;
+    display: flex;
+    font-size: 1.3vw;
+}
+.contIMG1{
+    margin-left: 3vw;
+    margin-top: -3vw;
+    width: 5vw;
+    height: 5vw;
+}
+.imagen2{
+    width: 6vw;
+    height: 6vw;
+}
+.camara{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(233, 233, 233);
+    border-radius: 50px;
+    margin-top: -1.2vw;
+    margin-left: 7vw;
+}
+.nombreBio{
+    display: flex;
+}
+.nombre{
+    font-size: 1.2vw;
+    width: 12vw;
+    height: 3vw;
+    text-align: center;
+}
+.biografia{
+    font-size: 1.2vw;
+    width: 87vw;
+    height: 3vw;
+    display: flex;
+    justify-content: end;
+    margin-right: 1vw;
+}
+.textoBio{
+    margin-top: -2vw;
+    width: 45vw;
+    height: 24vw;
+    border: 1px solid #FF6F2C;
+    color: #FF6F2C;
+    padding: 0.5vw;
+    font-size: 1vw;
+}
+.datos{
+    margin-top: 5vw;
+    width: 30vw;
+    display: flex;
+    margin-left: 2.5vw;
+}
+.kario2{
+    display: flex;
+    width: 20vw;
+    margin-left: -1vw;
+}
+.imagen3{
+    width: 3vw;
+    height: 2vw;
+}
+.texto1{
+    margin-left: 0.5vw;
+    width:20vw;
+    height: 2vw;
+    border: 1px solid #FF6F2C;
+    font-size:1vw;
+    display: flex;
+    align-items: end;
+}
+.location{
+    margin-left: 5vw;
+    display: flex;
+
+}
+.imagen4{
+    width: 2vw;
+    height: 2vw;
+}
+.texto2{
+    width: 20vw;
+    height: 2vw;
+    border: 1px solid #FF6F2C;
+    font-size:1vw;
+    margin-left: 0.5vw;
+    display: flex;
+    align-items: end;
+}
+.datos2{
+    margin-top: 3vw;
+    width: 30vw;
+    display: flex;
+    margin-left: 2vw;
+}
+.user{
+    width: 25vw;
+    display: flex;
+}
+.imagen5{
+    width: 3.5vw;
+    height: 2vw;
+    margin-left: -1vw;
+}
+.texto3{
+    width: 17vw;
+    height: 2vw;
+    border: 1px solid #FF6F2C;
+    font-size:1vw;
+    display: flex;
+    align-items: end;
+}
+.telefono{
+    margin-left: 5vw;
+    display: flex;
+}
+.imagen6{
+    width: 2vw;
+    height: 2vw;
+}
+.texto4{
+    width: 20vw;
+    height: 2vw;
+    border: 1px solid #FF6F2C;
+    font-size:1vw;
+    margin-left: 0.5vw;
+    display: flex;
+    align-items: end;
+}
+.imagenD{
+    width: 2.3vw;
+    height: 2.3vw;
+}
+.texto5{
+    width: 20vw;
+    height: 2vw;
+    border: 1px solid #FF6F2C;
+    font-size:1vw;
+    margin-left: 0.5vw;
+    display: flex;
+    align-items: end;
+}
+.correo{
+    width: 20vw;
+    display: flex;
+    margin-left: -0.5vw;
+}
+.contBoton{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+.boton{
+    width: 10vw;
+    height: 3vw;
+    background-color:  #FF6F2C;
+    border-radius: 10px;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    color: white;
+    margin-top: 2vw;
+}

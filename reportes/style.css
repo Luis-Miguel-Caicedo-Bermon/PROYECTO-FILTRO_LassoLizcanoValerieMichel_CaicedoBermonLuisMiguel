@@ -286,17 +286,20 @@ body{
     .escribe{
         margin-top: 7vw;
         font-size: 4vw;
+        text-align: center;
     }
     .contenedor{
         display: block;
     }
     #descripcion{
-        width: 80vw;
-        height: 30vw;
+        width: 70vw;
+        height: 25vw;
+        margin-left: 15vw;
     }
     .enviar{
-        width: 30vw;
-        font-size: 5vw;
-        padding: 3vw 5vw;
+        margin: 7vw auto;
+        width: 20vw;
+        font-size: 3vw;
+        padding: 2vw 5vw;
     }
 }

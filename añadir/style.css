@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ContenedorPrincipal{
+    width: 100vw;
+    height: 45vw;
+}
+@font-face{
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
+    font-family: regular;
+}
+@font-face{
+    src: url(fonts/MyriadPro-Light.otf);
+    font-family: light;
+}
+.menu{
+    width: 100vw;
+    height: 4vw;
+    display: flex;
+    box-shadow: 0 0 0 0.1vw gray;
+    align-items: center;
+}
+#ham{
+    display: none;
+}
+.menuh{
+    display: none;
+    width: 5vw;
+}
+.marco{
+    display: flex;
+}
+.conop{
+    display: flex;
+}
+.icons{
+    width: 1.2vw;
+}
+.opc{
+    margin-left: 0.5vw;
+    font-size: 1.2vw;
+    font-family: regular;
+}
+#mas{
+    margin-left: 9.7vw;
+    display: flex;
+    align-items: center;
+}
+#reload{
+    margin-left: 6.8vw;
+    display: flex;
+    align-items: center;
+}
+#report{
+    margin-left: 12.4vw;
+    display: flex;
+    align-items: center;
+}
+.kario{
+    margin-left: 9vw;
+    width: 2vw;
+}
+.config{
+    margin-left: 10vw;
+    width: 1vw;
+    display: flex;
+}
+.noti{
+    width: 1.2vw;
+    margin-left: 1vw;
+}
+.profe{
+    width: 2.8vw;
+    margin-left: 1vw;
+}
+.division{
+    background-color: pink;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: 50vw;
+}
+.div1{
+    width: 60vw;
+    background-color: white;
+    height: 30vw;
+}
+.contIMG{
+    width: 42vw;
+    height: 6vw;
+    display: flex;
+    align-items: end;
+    margin-left: 18vw;
+}
+.imagen1{    
+    width: 2vw;
+    height: 2vw;
+}
+.texto1{
+    width: 60vw;
+    height: 4vw;
+    color: #FF6F2C;
+    font-size: 2vw;
+    font-family: regular;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto2{
+    width: 60vw;
+    height: 1vw;
+    font-size: 1vw;
+    font-family: light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.5vw;
+}
+.contBoton{
+    width: 60vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+}
+.botonAñadir{
+    background-color: #FF6F2C;
+    width: 8vw;
+    height: 2vw;
+    font-size: 1vw;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: regular;
+}

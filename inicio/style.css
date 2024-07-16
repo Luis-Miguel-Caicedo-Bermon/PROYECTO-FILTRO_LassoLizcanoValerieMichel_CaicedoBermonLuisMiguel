@@ -22,8 +22,7 @@ body{
 .kario{
     width: 0;
     animation-name: kario;
-    animation-duration: 3s;
-    animation-delay: 1s;
+    animation-duration: 4s;
     animation-timing-function: linear;
 }
 @keyframes kario{
@@ -52,8 +51,7 @@ body{
     background-color: white;
     border-radius: 5vw;
     animation-name: inicio;
-    animation-duration: 3s;
-    animation-delay: 1s;
+    animation-duration: 4s;
 }
 @keyframes inicio{
     0%{

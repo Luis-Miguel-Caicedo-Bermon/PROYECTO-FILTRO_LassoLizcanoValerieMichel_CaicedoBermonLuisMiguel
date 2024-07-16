@@ -1,11 +1,10 @@
-*{
-    padding: 0;
-    margin: 0;
+body{
+    margin: 0 auto;
 }
 
 .ContenedorPrincipal{
     width: 100vw;
-    height: 45vw;
+    height: 50vw;
 }
 @font-face{
     src: url(fonts/MYRIADPRO-REGULAR.OTF);
@@ -75,8 +74,11 @@
     width: 2.8vw;
     margin-left: 1vw;
 }
+.quitlink{
+    text-decoration: none;
+    color: black;
+}
 .division{
-    background-color: pink;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -84,7 +86,6 @@
 }
 .div1{
     width: 60vw;
-    background-color: white;
     height: 30vw;
 }
 .contIMG{
@@ -92,17 +93,17 @@
     height: 6vw;
     display: flex;
     align-items: end;
-    margin-left: 18vw;
+    margin-left: 10vw;
 }
 .imagen1{    
-    width: 2vw;
-    height: 2vw;
+    width: 3vw;
+    height: 3vw;
 }
 .texto1{
     width: 60vw;
-    height: 4vw;
+    height: 5.5vw;
     color: #FF6F2C;
-    font-size: 2vw;
+    font-size: 3.5vw;
     font-family: regular;
     display: flex;
     align-items: center;
@@ -111,12 +112,12 @@
 .texto2{
     width: 60vw;
     height: 1vw;
-    font-size: 1vw;
+    font-size: 1.9vw;
     font-family: light;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 1.5vw;
+    padding-bottom: 2vw;
 }
 .contBoton{
     width: 60vw;
@@ -126,13 +127,174 @@
 }
 .botonAñadir{
     background-color: #FF6F2C;
-    width: 8vw;
-    height: 2vw;
-    font-size: 1vw;
+    width: 14vw;
+    height: 3vw;
+    font-size: 1.5vw;
     border-radius: 10px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: regular;
+    border: none;
+}
+.div2{
+    width: 40vw;
+    height: 50vw;
+    display: flex;
+    justify-content: end;
+}
+.contenedorDatos{
+    width: 28vw;
+    height: 50vw;
+    border: 0.7vw solid #FF6F2C;
+    border-radius: 7vw;
+    margin-right: 5vw;
+    margin-top: 2vw;
+}
+.contDatos{
+    width: 28vw;
+    height: 2vw;
+    justify-content: center;
+}
+.dato{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 1.8vw;
+    font-family: light;
+}
+.contRectangle{
+    display: flex;
+    justify-content: center;
+}
+.rectangle{
+    width: 14.7vw;
+    height: 1.8vw;
+    border: 1px solid #FF6F2C;
+}
+@media only screen and (max-width: 440px){
+    .menu{
+        height: 10vw;
+        overflow: hidden;
+        display: block;
+        transition: 0.5s;
+    }
+    .menuh{
+        display: block;
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+    #ham:checked + .menu{
+        height: 55vw;
+    }
+    .icons{
+        width: 4vw;
+    }
+    .opc{
+        font-size: 4vw;
+    }
+    .config{
+        width: 4vw;
+    }
+    .noti{
+        width: 4vw;
+        margin-left: 3vw;
+    }
+    .profe{
+        width: 6vw;
+        margin-left: 3vw;
+    }
+    #perfil{
+        position: relative;
+        top: -53vw;
+        left: 65vw;
+    }
+    #mas{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    #reload{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    #report{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    .kario{
+        display: none;
+    }
+    .marco{
+        display: block;
+        border: #FF6F2C 0.4vw solid;
+        margin-top: 5vw;
+        margin-left: 10vw;
+        width: 40vw;
+        height: 42vw;
+    }
+    .ContenedorPrincipal{
+        height: 200vw;
+    }
+    .division{
+        width: 100vw;
+        display: block;
+        height: 200vw;
+    }
+    .div1{
+        height: 60vw;
+    }
+    .contIMG{
+        height: 35vw;
+        margin-left: 22vw;
+    }
+    .imagen1{    
+        width: 5vw;
+        height: 5vw;
+    }
+    .texto1{
+        width: 100vw;
+        height: 7vw;
+        color: #FF6F2C;
+        font-size: 4.5vw;
+    }
+    .texto2{
+        width: 100vw;
+        height: 3vw;
+        font-size: 3vw;
+        padding-bottom: 2vw;
+    }
+    .contBoton{
+        width: 100vw;
+        height: 5vw;
+    }
+    .botonAñadir{
+        width: 20vw;
+        height: 5vw;
+        font-size: 2.5vw;
+    }
+    .div2{
+        width: 100vw;
+        height: 90vw;
+        justify-content: center;
+        margin-top: 10vw;
+    }
+    .contenedorDatos{
+        width: 55vw;
+        height: 110vw;
+        border-radius: 14vw;
+    }
+    .contDatos{
+        width: 55vw;
+        height: 3vw;
+    }
+    .dato{
+        font-size: 3.2vw;
+        margin-top: 4.5vw;
+    }
+    .rectangle{
+        width: 34vw;
+        height: 4vw;
+        border: 1px solid #FF6F2C;
+    }
+    
 }

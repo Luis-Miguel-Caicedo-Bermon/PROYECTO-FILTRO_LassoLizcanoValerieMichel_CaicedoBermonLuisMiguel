@@ -1,49 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Añadir</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="ContenedorPrincipal">
+
         <input type="checkbox" id="ham">
+
         <div class="menu">
+
             <label for="ham"><img src="images/Repeat Grid 2.svg" alt="" class="menuh"></label>
+
             <div class="marco">
-                <div class="conop" id="mas"><img src="images/mas.svg" alt="" class="icons">
-                    <div class="opc">Añadir</div></div>
-                <div class="conop" id="reload"><img src="images/reload.svg" alt="" class="icons">
-                    <div class="opc">Refrescar</div></div>
+
+                <a href="../añadir/index.html" class="quitlink">
+                    <div class="conop" id="mas"><img src="images/mas.svg" alt="" class="icons">
+                        <div class="opc">Añadir</div>
+                    </div>
+                </a>
+
+                <a href="../panel-de-indicadores/index.html" class="quitlink">
+                    <div class="conop" id="reload"><img src="images/reload.svg" alt="" class="icons">
+                        <div class="opc">Refrescar</div>
+                    </div>
+                </a>
+
                 <div class="conop" id="reload"><img src="images/delete.svg" alt="" class="icons">
-                    <div class="opc">Eliminar</div></div>
+                    <div class="opc">Eliminar</div>
+                </div>
+
                 <img src="images/kario sin kairo (2).svg" alt="" class="kario">
-                <div class="conop" id="report"><img src="images/report.svg" alt="" class="icons">
-                    <div class="opc">Reportar</div></div>
-                <div class="conop" id="reload"><img src="images/help.svg" alt="" class="icons">
-                    <div class="opc">Ayuda</div></div>
+
+                <a href="../reportes/index.html" class="quitlink">
+                    <div class="conop" id="report"><img src="images/report.svg" alt="" class="icons">
+                        <div class="opc">Reportar</div>
+                    </div>
+                </a>
+
+                <a href="../ayuda/index.html" class="quitlink">
+                    <div class="conop" id="reload"><img src="images/help.svg" alt="" class="icons">
+                        <div class="opc">Ayuda</div>
+                    </div>
+                </a>
+
             </div>
+
             <div class="conop" id="perfil"><img src="images/settings.svg" alt="" class="config">
+
                 <img src="images/noti.svg" alt="" class="noti">
-                <img src="images/profe.png" alt="" class="profe">
-            </div>
-        </div>
 
-        <div class="division">
-            <div class="div1">
-                <div class="contIMG">
-                    <img src="images/mas.svg" class="imagen1">
-                </div>
-                <div class="texto1">AÑADIR INDICADORES</div>
-                <div class="texto2">Ingresa los datos para añadir tu propuesta al panel de indicadores</div>
-                <div class="contBoton">
-                    <div class="botonAñadir">AÑADIR</div>
-                </div>
+                <a href="../CerrarSesion/index.html">
+                    <img src="images/profe.png" alt="" class="profe">
+                </a>
+
             </div>
 
-            <div class="div2"></div>
         </div>
+
+        <form action="">
+
+            <div class="division">
+
+                <div class="div1">
+
+                    <div class="contIMG">
+                        <img src="images/mas.svg" class="imagen1">
+                    </div>
+
+                    <div class="texto1">AÑADIR INDICADORES</div>
+                    <div class="texto2">Ingresa los datos para añadir tu propuesta al panel de indicadores</div>
+
+                    <div class="contBoton">
+                        <button class="botonAñadir">AÑADIR</button>
+                    </div>
+
+                </div>
+
+                <div class="div2">
+
+                    <div class="contenedorDatos">
+
+                        <div class="contDatos">
+
+                            <div class="dato">Indicador</div>
+                            <div class="contRectangle">
+                                <input type="text" class="rectangle" required></input>
+                            </div>
+
+                            <div class="dato">Descripción</div>
+                            <div class="contRectangle">
+                                <input type="text" class="rectangle" required></input>
+                            </div>
+
+                            <div class="dato">Categoría</div>
+                            <div class="contRectangle">
+                                <input type="text" class="rectangle" required></input>
+                            </div>
+
+                            <div class="dato">Fecha de inicio</div>
+                            <div class="contRectangle">
+                                <input type="date" class="rectangle" required></input>
+                            </div>
+
+                            <div class="dato">Fecha de terminación</div>
+                            <div class="contRectangle">
+                                <input type="date" class="rectangle" required></input>
+                            </div>
+
+                            <div class="dato">Área</div>
+                            <div class="contRectangle">
+                                <input type="text" class="rectangle" required></input>
+                            </div>
+
+                            <div class="dato">Cumplimiento %</div>
+                            <div class="contRectangle">
+                                <input type="number" class="rectangle" required></input>
+                            </div>
+
+                            <div class="dato">Frecuencia</div>
+                            <div class="contRectangle">
+                                <input type="text" class="rectangle" required></input>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </form>
     </div>
 </body>
+
 </html>

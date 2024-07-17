@@ -22,6 +22,9 @@ body{
 #ham{
     display: none;
 }
+.indicadort{
+    color: black;
+}
 .menuh{
     display: none;
     width: 5vw;
@@ -92,12 +95,32 @@ body{
     font-size: 1.25vw;
     display: flex;
 }
+#acordeon, #acordeon2, #acordeon3, #acordeon4, #acordeon5, #acordeon6{
+    display: none;
+}
 .indicador{
     margin-left: 1.4vw;
     width: 14vw;
 }
+.indicadort{
+    color: black;
+    margin-left: 1.4vw;
+    width: 14vw;
+    display: none;
+}
+.titulo{
+    display: flex;
+}
+.block{
+    display: flex;
+    align-items: center;
+}
 .descripcion{
     width: 13vw;
+}
+.descripciont{
+    color: black;
+    display: none;
 }
 .categoria{
     width: 5vw;
@@ -131,6 +154,13 @@ body{
 .area{
     margin-left: 1vw;
     width: 7.5vw;
+    text-align: center;
+}
+.areat{
+    margin-left: 1vw;
+    width: 7.5vw;
+    color: black;
+    display: none;
     text-align: center;
 }
 .info2{
@@ -262,6 +292,104 @@ body{
     }
     .aquipuedes{
         font-size: 4vw;
+    }
+    .info{
+        display: none;
+    }
+    .info2{
+        margin: 3vw auto;
+        display: block;
+        font-size: 3.5vw;
+        width: 75vw;
+        height: 14vw;
+        overflow: hidden;
+    }
+    #acordeon:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon2:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon3:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon4:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon5:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon6:checked + .hola .info2{
+        height: 66vw;
+    }
+    .block{
+        width: 50%;
+        display: block;
+        margin-top: 3vw;
+    }
+    .indicadort{
+        width: 94%;
+        display: block;
+        margin-left: 3%;
+    }
+    .indicador{
+        margin-left: 3%;
+        width: 94%;
+    }
+    .descripciont{
+        margin-left: 3%;
+        display: block;
+    }
+    .descripcion{
+        margin-left: 3%;
+        width: 94%;
+    }
+    .categoria{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    .fechai{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    .fechaf{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    .formula{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    .frecuencia{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    #porce{
+        font-size: 3vw;
+        left: 6vw;
+        top: -6.5vw;
+        height: 0;
+    }
+    .cumplimiento{
+        width: 10vw;
+        height: 10vw;
+    }
+    .areat{
+        display: block;
+        margin-left: 3%;
+    }
+    .area{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    .lineas{
+        display: none;
     }
     .boton{
         margin-top: 7vw;

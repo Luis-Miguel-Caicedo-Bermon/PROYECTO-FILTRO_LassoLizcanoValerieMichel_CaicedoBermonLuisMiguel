@@ -1,5 +1,6 @@
-body{
-    margin: 0 auto;
+*{
+    margin: 0;
+    padding: 0;
 }
 @font-face{
     src: url(fonts/MYRIADPRO-REGULAR.OTF);
@@ -8,10 +9,6 @@ body{
 @font-face{
     src: url(fonts/MyriadPro-Light.otf);
     font-family: light;
-}
-.principal{
-    width: 100vw;
-    height: 70vw;
 }
 .menu{
     width: 100vw;
@@ -40,7 +37,6 @@ body{
     margin-left: 0.5vw;
     font-size: 1.2vw;
     font-family: regular;
-    color: black;
 }
 #mas{
     margin-left: 9.7vw;
@@ -73,6 +69,10 @@ body{
 .profe{
     width: 2.8vw;
     margin-left: 1vw;
+}
+.quitlink{
+    text-decoration: none;
+    color: black;
 }
 .selecciona{
     margin-top: 4vw;
@@ -187,121 +187,32 @@ body{
     margin-left: 74vw;
     width: 1.5vw;
     height: 1.5vw;
+
 }
-.escribe{
-    font-family: regular;
-    font-size: 2vw;
-    margin-top: 3vw;
-    margin-left: 3vw;
+.imgeliminar{
+    position: absolute;
+    margin-left: 73.5vw;
+    width: 2vw;
+    height: 2.5vw;
+    background-color: white;
+    pointer-events: none;
 }
-.contenedor{
-    margin-top: 3vw;
-    display: flex;
+.contBoton{
     width: 100vw;
-}
-#descripcion{
-    width: 60vw;
-    margin-left: 3vw;
-    height: 10vw;
-    border: #FF6F2C solid 0.3vw;
-    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
 }
 .enviar{
-    width: 11vw;
+    width: 17vw;
     text-align: center;
     font-family: regular;
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: white;
     background-color: #FF6F2C;
     border-radius: 1vw;
-    padding: 1vw;
     margin-top: 6.8vw;
     margin-left: 2vw;
     border: none;
     cursor: pointer;
-}
-@media only screen and (max-width: 440px){
-    .menu{
-        height: 10vw;
-        overflow: hidden;
-        display: block;
-        transition: 0.5s;
-    }
-    .menuh{
-        display: block;
-        margin-top: 3vw;
-        margin-left: 3vw;
-    }
-    #ham:checked + .menu{
-        height: 55vw;
-    }
-    .icons{
-        width: 4vw;
-    }
-    .opc{
-        font-size: 4vw;
-    }
-    .config{
-        width: 4vw;
-    }
-    .noti{
-        width: 4vw;
-        margin-left: 3vw;
-    }
-    .profe{
-        width: 6vw;
-        margin-left: 3vw;
-    }
-    #perfil{
-        position: relative;
-        top: -53vw;
-        left: 65vw;
-    }
-    #mas{
-        margin-left: 5vw;
-        margin-top: 3vw;
-    }
-    #reload{
-        margin-left: 5vw;
-        margin-top: 3vw;
-    }
-    #report{
-        margin-left: 5vw;
-        margin-top: 3vw;
-    }
-    .kario{
-        display: none;
-    }
-    .marco{
-        display: block;
-        border: #FF6F2C 0.4vw solid;
-        margin-top: 5vw;
-        margin-left: 10vw;
-        width: 40vw;
-        height: 42vw;
-    }
-    .selecciona{
-        font-size: 5vw;
-    }
-    .escribe{
-        margin-top: 7vw;
-        font-size: 4vw;
-        text-align: center;
-    }
-    .contenedor{
-        display: block;
-    }
-    #descripcion{
-        width: 70vw;
-        height: 25vw;
-        margin-left: 15vw;
-    }
-    .enviar{
-        margin: 7vw auto;
-        width: 27vw;
-        font-size: 3vw;
-        padding: 2vw 5vw;
-        display: flex;
-        justify-content: center;
-    }
+    height: 4vw;
 }

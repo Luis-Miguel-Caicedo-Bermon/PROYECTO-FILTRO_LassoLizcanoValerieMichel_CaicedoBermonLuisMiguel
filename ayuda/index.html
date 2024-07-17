@@ -7,56 +7,87 @@
     <link rel="stylesheet" href="style.css">
 <body>
     <div class="principal">
+
         <input type="checkbox" id="ham">
+
         <div class="menu">
+           
             <label for="ham"><img src="images/Repeat Grid 2.svg" alt="" class="menuh"></label>
+            
             <div class="marco">
-                <a href="../añadir/index.html" class="quitlink">
-                    <div class="conop" id="mas"><img src="images/mas.svg" alt="" class="icons">
+                
+                <a href="../añadir/index.html" class="quitlink"><div class="conop" id="mas"><img src="images/mas.svg" alt="" class="icons">
                     <div class="opc">Añadir</div></div>
                 </a>
-                <div class="conop" id="reload"><img src="images/reload.svg" alt="" class="icons">
+
+                <a href="../panel-de-indicadores/index.html" class="quitlink"><div class="conop" id="reload"><img src="images/reload.svg" alt="" class="icons">
                     <div class="opc">Refrescar</div></div>
-                <div class="conop" id="reload"><img src="images/delete.svg" alt="" class="icons">
+                </a>
+
+                <a href="../Eliminar/index.html"  class="quitlink"><div class="conop" id="reload"><img src="images/delete.svg" alt="" class="icons">
                     <div class="opc">Eliminar</div></div>
+                </a>
+                
                 <img src="images/kario sin kairo.svg" alt="" class="kario">
+
                 <a href="../reportes/index.html" class="quitlink"><div class="conop" id="report"><img src="images/report.svg" alt="" class="icons">
-                    <div class="opc">Reportar</div></div></a>
-                <div class="conop" id="reload"><img src="images/help.svg" alt="" class="icons">
+                    <div class="opc">Reportar</div></div>
+                </a>
+                
+                <a href="../ayuda/index.html" class="quitlink">
+                    <div class="conop" id="reload"><img src="images/help.svg" alt="" class="icons">
                     <div class="opc">Ayuda</div></div>
+                </a>
+                
             </div>
+
             <div class="conop" id="perfil"><img src="images/settings.svg" alt="" class="config">
+
                 <img src="images/noti.svg" alt="" class="noti">
+
                 <a href="../CerrarSesion/index.html">
                     <img src="images/profe.png" alt="" class="profe">
-                </a>    
+                </a>
+
             </div>
+            
         </div>
+
         <div class="bienvenido">Bienvenido al  centro de ayuda</div>
+
         <img src="images/help.svg" alt="" class="ayud">
+
         <div class="dudas">¿Tienes dudas de como usar la página? </div>
+        
         <div class="informacion">
+
             <div class="contenedores">
                 <div class="titulo">Añadir:</div>
                 <div class="texto">Si deseas añadir más indicadores al panel , en la opción añadir de nuestro menú podrás encontrar un formulario a llenar con datos del indicador. al terminar presiona el botón añadir(para guardar llena todo los datos).</div>
             </div>
+            
             <div class="contenedores">
                 <div class="titulo">Eliminar:</div>
                 <div class="texto">Si crees q hay un indicador añadido por error o que no necesitas, podrás eliminarlo seleccionando el basurero y para confirmar la acción presionas el botón de eliminar.</div>
             </div>
+            
             <div class="contenedores">
                 <div class="titulo">Reportar:</div>
                 <div class="texto">En reportar encontraras los indicadores propuestos por tu equipo de trabajo, si consideras q no son apropiados puedes seleccionarlos para poder reportarlos y escribir el motivo. Al terminar este proceso presionas el botón reportar.</div>
             </div>
+
         </div>
+        
+       <form action="">
         <div class="seccion-problemas">
             <label for="descripcion"><div class="problemas">¿Tienes problemas con la página?<br>Escribe el motivo-></div></label>
-            <input type="text" id="descripcion">
+            <input type="text" id="descripcion" required>
         </div>
 
         <div class="contBoton">
-            <input type="submit" value="Enviar" class="enviar">
+            <input type="submit" value="Enviar" class="enviar" >
         </div>
+       </form>
         
     </div>
 </body>

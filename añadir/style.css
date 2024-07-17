@@ -245,7 +245,7 @@ body{
         height: 60vw;
     }
     .contIMG{
-        height: 35vw;
+        height: 25vw;
         margin-left: 22vw;
     }
     .imagen1{    
@@ -277,7 +277,6 @@ body{
         width: 100vw;
         height: 90vw;
         justify-content: center;
-        margin-top: 10vw;
     }
     .contenedorDatos{
         width: 55vw;

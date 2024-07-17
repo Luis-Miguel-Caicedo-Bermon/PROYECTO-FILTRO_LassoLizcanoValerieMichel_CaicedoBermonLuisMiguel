@@ -303,6 +303,7 @@ body{
         width: 75vw;
         height: 14vw;
         overflow: hidden;
+        transition: all 0.5s;
     }
     #acordeon:checked + .hola .info2{
         height: 66vw;

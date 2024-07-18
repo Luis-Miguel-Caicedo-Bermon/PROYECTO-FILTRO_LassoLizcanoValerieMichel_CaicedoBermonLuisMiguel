@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
 }
+/* tipos de letra utilizados */
 @font-face{
     src: url(fonts/MYRIADPRO-REGULAR.OTF);
     font-family: regular;
@@ -12,6 +13,7 @@ body{
 .principal{
     width: 100vw;
 }
+/* menu que contiene las opciones */
 .menu{
     width: 100vw;
     height: 4vw;
@@ -76,6 +78,7 @@ body{
     width: 2.8vw;
     margin-left: 1vw;
 }
+/* aqui termina el css del menu de opciones */
 .panel{
     margin-top: 2vw;
     font-size: 2vw;
@@ -95,6 +98,7 @@ body{
     font-size: 1.25vw;
     display: flex;
 }
+/* es para desaparecer los inputs */
 #acordeon, #acordeon2, #acordeon3, #acordeon4, #acordeon5, #acordeon6{
     display: none;
 }
@@ -180,6 +184,7 @@ body{
     left: 4vw;
     width: 2vw;
 }
+/* css del svg de los porcentajes */
 #porcentaje{
     fill: none;
     stroke: #FF0011;
@@ -224,6 +229,7 @@ body{
     font-size: 1.3vw;
     font-family: regular;
 }
+/* es para quitar la decoracion de los links */
 .quitlink{
     text-decoration: none;
 }
@@ -305,6 +311,7 @@ body{
         overflow: hidden;
         transition: all 0.5s;
     }
+    /* es para abrir cada indicador en un dispositivo movil */
     #acordeon:checked + .hola .info2{
         height: 66vw;
     }

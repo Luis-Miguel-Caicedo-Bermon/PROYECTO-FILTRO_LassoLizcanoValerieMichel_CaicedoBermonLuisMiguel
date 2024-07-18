@@ -206,6 +206,7 @@ body{
     width: 1.5vw;
     height: 1.5vw;
     opacity: 0;
+    cursor: pointer;
 }
 .escribe{
     font-family: regular;
@@ -265,6 +266,7 @@ body{
         display: block;
         margin-top: 3vw;
         margin-left: 3vw;
+        cursor: pointer;
     }
     #ham:checked + .menu{
         height: 55vw;

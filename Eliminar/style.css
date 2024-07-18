@@ -1,6 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    margin: 0 auto;
 }
 @font-face{
     src: url(fonts/MYRIADPRO-REGULAR.OTF);
@@ -37,6 +36,7 @@
     margin-left: 0.5vw;
     font-size: 1.2vw;
     font-family: regular;
+    color: black;
 }
 #mas{
     margin-left: 9.7vw;
@@ -70,10 +70,6 @@
     width: 2.8vw;
     margin-left: 1vw;
 }
-.quitlink{
-    text-decoration: none;
-    color: black;
-}
 .selecciona{
     margin-top: 4vw;
     margin-left: 3vw;
@@ -88,12 +84,32 @@
     font-size: 1vw;
     display: flex;
 }
+#acordeon, #acordeon2, #acordeon3, #acordeon4, #acordeon5, #acordeon6{
+    display: none;
+}
 .indicador{
     margin-left: 1vw;
     width: 12vw;
 }
+.indicadort{
+    color: black;
+    margin-left: 1vw;
+    width: 12vw;
+    display: none;
+}
+.titulo{
+    display: flex;
+}
+.block{
+    display: flex;
+    align-items: center;
+}
 .descripcion{
     width: 10vw;
+}
+.descripciont{
+    color: black;
+    display: none;
 }
 .categoria{
     width: 4vw;
@@ -129,6 +145,13 @@
     width: 7vw;
     text-align: center;
 }
+.areat{
+    margin-left: 1vw;
+    width: 7vw;
+    color: black;
+    display: none;
+    text-align: center;
+}
 .info2{
     border: 0.1vw solid rgb(150, 150, 150);
     border-radius: 1.5vw;
@@ -140,11 +163,6 @@
     font-size: 1vw;
     font-family: light;
     color: rgb(150, 150, 150);
-}
-.lineas{
-    position: relative;
-    left: 4vw;
-    width: 2vw;
 }
 #porcentaje{
     fill: none;
@@ -187,14 +205,31 @@
     margin-left: 74vw;
     width: 1.5vw;
     height: 1.5vw;
-
+    opacity: 0;
+}
+.escribe{
+    font-family: regular;
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+.contenedor{
+    margin-top: 3vw;
+    display: flex;
+    width: 100vw;
+}
+#descripcion{
+    width: 60vw;
+    margin-left: 3vw;
+    height: 10vw;
+    border: #FF6F2C solid 0.3vw;
+    background-color: rgb(226, 226, 226);
 }
 .imgeliminar{
     position: absolute;
     margin-left: 73.5vw;
     width: 2vw;
     height: 2.5vw;
-    background-color: white;
     pointer-events: none;
 }
 .contBoton{
@@ -215,4 +250,206 @@
     border: none;
     cursor: pointer;
     height: 4vw;
+}
+@media only screen and (max-width: 440px){
+    .ContenedorPrincipal{
+        height: 250vw;
+    }
+    .menu{
+        height: 10vw;
+        overflow: hidden;
+        display: block;
+        transition: 0.5s;
+    }
+    .menuh{
+        display: block;
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+    #ham:checked + .menu{
+        height: 55vw;
+    }
+    .icons{
+        width: 4vw;
+    }
+    .opc{
+        font-size: 4vw;
+    }
+    .config{
+        width: 4vw;
+    }
+    .noti{
+        width: 4vw;
+        margin-left: 3vw;
+    }
+    .profe{
+        width: 6vw;
+        margin-left: 3vw;
+    }
+    #perfil{
+        position: relative;
+        top: -53vw;
+        left: 65vw;
+    }
+    #mas{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    #reload{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    #report{
+        margin-left: 5vw;
+        margin-top: 3vw;
+    }
+    .kario{
+        display: none;
+    }
+    .marco{
+        display: block;
+        border: #FF6F2C 0.4vw solid;
+        margin-top: 5vw;
+        margin-left: 10vw;
+        width: 40vw;
+        height: 42vw;
+    }
+    .selecciona{
+        font-size: 5vw;
+        text-align: center;
+        margin-top: 6vw;
+        padding-bottom: 4vw;
+    }
+    .info{
+        display: none;
+    }
+    .info2{
+        margin: 3vw auto;
+        display: block;
+        font-size: 3.5vw;
+        width: 75vw;
+        height: 14vw;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+    #acordeon:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon2:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon3:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon4:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon5:checked + .hola .info2{
+        height: 66vw;
+    }
+    #acordeon6:checked + .hola .info2{
+        height: 66vw;
+    }
+
+    .block{
+        width: 50%;
+        display: block;
+        margin-top: 3vw;
+    }
+    .indicadort{
+        width: 94%;
+        display: block;
+        margin-left: 3%;
+    }
+    .indicador{
+        margin-left: 3%;
+        width: 94%;
+    }
+    .descripciont{
+        margin-left: 3%;
+        display: block;
+    }
+    .descripcion{
+        margin-left: 3%;
+        width: 94%;
+    }
+    .categoria{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    .fechai{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    .fechaf{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    .formula{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    .frecuencia{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    #porce{
+        font-size: 3vw;
+        left: 5.1vw;
+        top: -6.8vw;
+        height: 0;
+    }
+    .cumplimiento{
+        width: 10vw;
+        height: 10vw;
+    }
+    .areat{
+        display: block;
+        margin-left: 3%;
+    }
+    .area{
+        margin-left: 3%;
+        width: 94%;
+        text-align: start;
+    }
+    #selec{
+        width: 6vw;
+        height: 6vw;
+        margin-top: -59vw;
+        margin-left: 77vw;
+    }
+    .escribe{
+        margin-top: 7vw;
+        font-size: 4vw;
+        text-align: center;
+    }
+    .contenedor{
+        display: block;
+    }
+    #descripcion{
+        width: 70vw;
+        height: 25vw;
+        margin-left: 15vw;
+    }
+    .enviar{
+        width: 27vw;
+        height: 7vw;
+        font-size: 3vw;
+        display: flex;
+        justify-content: center;
+    }
+    .imgeliminar{
+        margin-top: -60vw;
+        margin-left: 76vw;
+        width: 10vw;
+        height: 7vw;
+    }
+    .imgeliminar:hover{
+        background-color: black;
+    }
 }

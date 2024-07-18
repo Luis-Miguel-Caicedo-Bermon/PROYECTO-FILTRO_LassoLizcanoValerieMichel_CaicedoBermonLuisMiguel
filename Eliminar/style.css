@@ -320,7 +320,7 @@ body{
         font-size: 5vw;
         text-align: center;
         margin-top: 6vw;
-        padding-bottom: 4vw;
+        padding: 4vw;
     }
     .info{
         display: none;

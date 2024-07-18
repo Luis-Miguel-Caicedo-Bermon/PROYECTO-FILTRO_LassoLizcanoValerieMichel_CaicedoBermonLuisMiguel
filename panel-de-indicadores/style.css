@@ -295,9 +295,11 @@ body{
     }
     .panel{
         font-size: 6vw;
+        margin-top: 4vw;
     }
     .aquipuedes{
         font-size: 4vw;
+        padding-bottom: 3vw;
     }
     .info{
         display: none;
@@ -312,22 +314,22 @@ body{
         transition: all 0.5s;
     }
     /* es para abrir cada indicador en un dispositivo movil */
-    #acordeon:checked + .hola .info2{
+    #acordeon:checked + .indicadores .info2{
         height: 66vw;
     }
-    #acordeon2:checked + .hola .info2{
+    #acordeon2:checked + .indicadores .info2{
         height: 66vw;
     }
-    #acordeon3:checked + .hola .info2{
+    #acordeon3:checked + .indicadores .info2{
         height: 66vw;
     }
-    #acordeon4:checked + .hola .info2{
+    #acordeon4:checked + .indicadores .info2{
         height: 66vw;
     }
-    #acordeon5:checked + .hola .info2{
+    #acordeon5:checked + .indicadores .info2{
         height: 66vw;
     }
-    #acordeon6:checked + .hola .info2{
+    #acordeon6:checked + .indicadores .info2{
         height: 66vw;
     }
     .block{

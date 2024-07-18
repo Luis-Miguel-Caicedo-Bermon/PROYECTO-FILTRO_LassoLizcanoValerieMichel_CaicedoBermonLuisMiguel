@@ -13,7 +13,7 @@ body{
 .principal{
     width: 100vw;
     height: 56.25vw;
-    background-image: url(images/pexels-pixabay-159400@2x.png);
+    background-image: url(../images/pexels-pixabay-159400@2x.png);
     background-size: cover;
     display: flex;
     justify-content: center;

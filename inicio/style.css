@@ -2,6 +2,7 @@ body{
     margin: 0 auto;
     background-color: black;
 }
+/* se vinculan los tipos de letra */
 @font-face{
     src: url(fonts/MYRIADPRO-REGULAR.OTF);
     font-family: regular;
@@ -10,6 +11,7 @@ body{
     src: url(fonts/MyriadPro-Light.otf);
     font-family: light;
 }
+/* contenedor principal con una imagen de fondo */
 .principal{
     width: 100vw;
     height: 56.25vw;
@@ -19,12 +21,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+/* logo de kario */
 .kario{
     width: 0;
     animation-name: kario;
     animation-duration: 4s;
     animation-timing-function: linear;
 }
+/* animación del logo */
 @keyframes kario{
     0%{
         width: 10vw;
@@ -53,6 +57,7 @@ body{
     animation-name: inicio;
     animation-duration: 4s;
 }
+/* animación del inicio */
 @keyframes inicio{
     0%{
         display: none;

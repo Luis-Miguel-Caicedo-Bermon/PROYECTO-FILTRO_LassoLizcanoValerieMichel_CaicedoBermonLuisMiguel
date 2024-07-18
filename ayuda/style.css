@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
 }
+/* tipos de letra utilizados */
 @font-face{
     src: url(fonts/MYRIADPRO-REGULAR.OTF);
     font-family: regular;
@@ -12,6 +13,7 @@ body{
 .principal{
     width: 100vw;
 }
+/* menu que contiene las opciones */
 .menu{
     width: 100vw;
     height: 4vw;
@@ -73,6 +75,7 @@ body{
     width: 2.8vw;
     margin-left: 1vw;
 }
+/* aqui termina el css del menu de opciones */
 .bienvenido{
     margin-top: 5vw;
     text-align: center;
@@ -148,6 +151,7 @@ body{
 .quitlink{
     text-decoration: none;
 }
+/* medidas para dispositivos moviles */
 @media only screen and (max-width: 440px){
     .principal{
         height: 260vw;

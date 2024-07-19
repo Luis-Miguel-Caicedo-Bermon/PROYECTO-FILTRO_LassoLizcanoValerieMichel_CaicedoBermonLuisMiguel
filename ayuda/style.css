@@ -129,25 +129,6 @@ body{
     border: #FF6F2C solid 0.2vw;
     display: flex;
 }
-.enviar{
-    background-color: #FF6F2C;
-    border: none;
-    border-radius: 0.5vw;
-    width: 11vw;
-    font-family: regular;
-    font-size: 2vw;
-    color: white;
-    margin-right: 9.2vw;
-    height: 3.5vw;
-    cursor: pointer;
-}
-.contBoton{
-    width: 100vw;
-    height: auto;
-    display: flex;
-    justify-content: end;
-    margin-top: -4vw;
-}
 .quitlink{
     text-decoration: none;
 }
@@ -250,17 +231,5 @@ body{
         margin: 0 auto;
         width: 70vw;
         height: 25vw;
-    }
-    .contBoton{
-        margin-top: 39vw;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-    }
-    .enviar{
-        width: 18vw;
-        height: 6vw;
-        font-size: 3vw;
-        margin-right: 0;
     }
 }

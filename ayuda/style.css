@@ -12,13 +12,15 @@ body{
 }
 .principal{
     width: 100vw;
+    border: 1vw solid #FF6F2C;
+    height: 56vw;
+    overflow: hidden;
 }
 /* menu que contiene las opciones */
 .menu{
     width: 100vw;
     height: 4vw;
     display: flex;
-    box-shadow: 0 0 0 0.1vw gray;
     align-items: center;
 }
 #ham{
@@ -136,6 +138,7 @@ body{
 @media only screen and (max-width: 440px){
     .principal{
         height: 260vw;
+        border: 2.5vw solid #FF6F2C;
     }
     .menu{
         height: 10vw;

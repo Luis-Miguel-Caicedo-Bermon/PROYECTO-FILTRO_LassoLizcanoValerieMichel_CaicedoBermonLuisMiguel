@@ -78,8 +78,7 @@ body{
 }
 /* aqui termina el css del menu de opciones */
 .selecciona{
-    margin-top: 5vw;
-    padding-bottom: 2vw;
+    margin-top: 4vw;
     margin-left: 3vw;
     color: #FF6F2C;
     font-family: regular;
@@ -204,11 +203,42 @@ body{
 .quitlink{
     text-decoration: none;
 }
-#selec{
+.selec{
     position: absolute;
-    margin-left: 74vw;
+    margin-top: -1.5vw;
+    margin-left: 73vw;
+}
+#selec, #selec2, #selec3, #selec4, #selec5, #selec6{
+    opacity: 0;
+    position: absolute;
+    margin-top: -1.5vw;
+    margin-left: 73vw;
+}
+#selec:checked + .selec .seleciona{
+    opacity: 100%;
+}
+#selec2:checked + .selec .seleciona{
+    opacity: 100%;
+}
+#selec3:checked + .selec .seleciona{
+    opacity: 100%;
+}
+#selec4:checked + .selec .seleciona{
+    opacity: 100%;
+}
+#selec5:checked + .selec .seleciona{
+    opacity: 100%;
+}
+#selec6:checked + .selec .seleciona{
+    opacity: 100%;
+}
+.seleciona{
+    position: absolute;
     width: 1.5vw;
     height: 1.5vw;
+    background-color: #FF6F2C;
+    border-radius: 50%;
+    opacity: 50%;
 }
 .escribe{
     font-family: regular;
@@ -217,7 +247,7 @@ body{
     margin-left: 3vw;
 }
 .contenedor{
-    margin-top: 1vw;
+    margin-top: 3vw;
     display: flex;
     width: 100vw;
 }
@@ -407,11 +437,17 @@ body{
         width: 94%;
         text-align: start;
     }
-    #selec{
-        width: 6vw;
-        height: 6vw;
+    .selec{
         margin-top: -59vw;
         margin-left: 77vw;
+    }
+    .seleciona{
+        width: 5vw;
+        height: 5vw;
+    }
+    #selec, #selec2, #selec3, #selec4, #selec5, #selec6{
+        margin-top: -56vw;
+        margin-left: 78vw;
     }
     .escribe{
         margin-top: 7vw;

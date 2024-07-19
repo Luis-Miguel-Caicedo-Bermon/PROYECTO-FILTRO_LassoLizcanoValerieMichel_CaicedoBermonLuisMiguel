@@ -13,7 +13,6 @@ body{
     width: 100vw;
     height: 4vw;
     display: flex;
-    box-shadow: 0 0 0 0.1vw gray;
     align-items: center;
 }
 #ham{

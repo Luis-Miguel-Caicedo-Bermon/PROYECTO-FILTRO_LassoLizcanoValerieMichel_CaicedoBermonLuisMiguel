@@ -50,7 +50,12 @@ El proyecto se encuentra dividido en carpetas con el nombre de cada parte de pá
 3.	**Tipos de fuentes:** Myriad pro Light,  Myriad pro Regular
 
 ## Instrucciones de uso:
-Clona este repositorio o descarga los archivos que se encuentran dentro de las carpetas. Busca un navegador que sea compatible y abre el archivo *index.html.*
+1. Clona el repositorio: Utiliza el comando "git clone" seguido de la URL del repositorio para clonar el proyecto en tu computadora local.
+
+2. Abre la carpeta del proyecto: Navega a la carpeta donde se clonó el proyecto y ábrela en tu editor de código favorito.
+
+3. Abre el archivo HTML: Busca el archivo HTML principal (usualmente "index.html") y ábrelo en tu navegador web.
+
 
 ## Créditos 
 La continuación del proyecto *kario Media* fue realizada por **Luis Miguel Caicedo Bermon** y **Valerie Michel Lasso Lizcano** para la entrega del proyecto filtro HTML y CSS.
